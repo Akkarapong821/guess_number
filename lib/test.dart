@@ -5,7 +5,7 @@ import 'dart:math';
 void main(){
   var i = 0;
   var r = Random();
-  var answer = r.nextInt(10);
+  var answer = r.nextInt(100);
   while(true){
     stdout.write("Please guess the number: ");
     var input = stdin.readLineSync();
